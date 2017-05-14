@@ -4,7 +4,7 @@ type j struct {
 	Name       string
 	PlaceTypes []string
 }
-
+//Journeys is a List of possible journeys and options
 var Journeys = []interface{}{
 	j{
 		Name: "Romantic",
@@ -36,7 +36,7 @@ var Journeys = []interface{}{
 			"night_club",
 			"bar",
 			"bar",
-			"hostpital",
+			"hospital",
 		},
 	},
 	j{
