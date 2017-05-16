@@ -1,0 +1,3 @@
+package: github.com/alexandreroba/go-blueprint-meander/meander
+import:
+- package: github.com/cheekybits/is

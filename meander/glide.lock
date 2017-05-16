@@ -1,0 +1,6 @@
+hash: f1e735390f248f517571b5e60bcb6f4ddf2b3740d3b1093682138db43bc88518
+updated: 2017-05-14T17:15:20.030211399+02:00
+imports:
+- name: github.com/cheekybits/is
+  version: 68e9c0620927fb5427fda3708222d0edee89eae9
+testImports: []

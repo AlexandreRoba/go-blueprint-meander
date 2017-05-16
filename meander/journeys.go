@@ -1,9 +1,12 @@
 package meander
 
+import "strings"
+
 type j struct {
 	Name       string
 	PlaceTypes []string
 }
+
 //Journeys is a List of possible journeys and options
 var Journeys = []interface{}{
 	j{
@@ -59,4 +62,11 @@ var Journeys = []interface{}{
 		},
 	},
 
+}
+
+func (j j) Public() interface{} {
+	return map[string]interface{}{
+		"name":    j.Name,
+		"journey": strings.Join(j.PlaceTypes, "|"),
+	}
 }
